@@ -778,16 +778,16 @@ Moe, moe, kyun!")
    `(ivy-subdir ((,class (:foreground ,blue-1 :bold t))))
    `(ivy-virtual ((,class (:foreground ,magenta-3))))
 
-   `(ivy-minibuffer-match-face-1 ((,class (:background ,blue-1 :foreground ,white-0))))
-   `(ivy-minibuffer-match-face-2 ((,class (:bold t :background ,green-2 :foreground ,white-0))))
-   `(ivy-minibuffer-match-face-3 ((,class (:bold t :background ,magenta-2 :foreground ,white-0))))
-   `(ivy-minibuffer-match-face-4 ((,class (:bold t :background ,cyan-3 :foreground ,white-0))))
+   `(ivy-minibuffer-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
+   `(ivy-minibuffer-match-face-2 ((,class (:bold t :background ,green-3 :foreground ,white-0))))
+   `(ivy-minibuffer-match-face-3 ((,class (:bold t :background ,green-4 :foreground ,green-0))))
+   `(ivy-minibuffer-match-face-4 ((,class (:bold t :background ,cyan-4 :foreground ,white-0))))
 
    ;; swiper
-   `(swiper-match-face-1 ((,class (:background ,blue-1 :foreground ,white-0))))
-   `(swiper-match-face-2 ((,class (:bold t :background ,green-2 :foreground ,white-0))))
-   `(swiper-match-face-3 ((,class (:bold t :background ,magenta-2 :foreground ,white-0))))
-   `(swiper-match-face-4 ((,class (:bold t :background ,cyan-3 :foreground ,white-0))))
+   `(swiper-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
+   `(swiper-match-face-2 ((,class (:bold t :background ,green-3 :foreground ,white-0))))
+   `(swiper-match-face-3 ((,class (:bold t :background ,green-4 :foreground ,green-0))))
+   `(swiper-match-face-4 ((,class (:bold t :background ,cyan-4 :foreground ,white-0))))
    `(swiper-line-face ((,class (:foreground ,orange-2 :bold t :inherit highlight))))
 
    ;; volatile-highlights
