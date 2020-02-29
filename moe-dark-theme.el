@@ -782,21 +782,21 @@ Moe, moe, kyun!")
 
    ;; Why are the numbers different to swiper?
    `(ivy-minibuffer-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
-   `(ivy-minibuffer-match-face-2 ((,class (:bold t :background ,green-4 :foreground ,white-0))))
-   `(ivy-minibuffer-match-face-3 ((,class (:bold t :background ,green-5 :foreground ,green-0))))
-   `(ivy-minibuffer-match-face-4 ((,class (:bold t :background ,cyan-4 :foreground ,white-0))))
+   `(ivy-minibuffer-match-face-2 ((,class (:background ,green-4 :foreground ,white-0))))
+   `(ivy-minibuffer-match-face-3 ((,class (:background ,green-5 :foreground ,green-0))))
+   `(ivy-minibuffer-match-face-4 ((,class (:background ,cyan-4 :foreground ,blue-6))))
 
-   ;; swiper
-   `(swiper-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
-   `(swiper-match-face-4 ((,class (:background ,green-4 :foreground ,white-0))))
-   `(swiper-match-face-2 ((,class (:background ,green-5 :foreground ,green-0))))
-   `(swiper-match-face-3 ((,class (:background ,cyan-4 :foreground ,white-0))))
+   ;; swiper WHY does blue-3 not match ivy ????
+   `(swiper-match-face-1 ((,class (:background "#00486e"))))
+   `(swiper-match-face-4 ((,class (:bold t :background ,green-4 :foreground ,white-0))))
+   `(swiper-match-face-2 ((,class (:bold t :background ,green-5 :foreground ,green-0))))
+   `(swiper-match-face-3 ((,class (:bold t :background ,cyan-4 :foreground ,blue-6))))
    `(swiper-line-face ((,class (:foreground ,orange-2 :bold t :inherit highlight))))
 
    `(swiper-background-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
    `(swiper-background-match-face-4 ((,class (:background ,green-4 :foreground ,white-0))))
    `(swiper-background-match-face-2 ((,class (:background ,green-5 :foreground ,green-0))))
-   `(swiper-background-match-face-3 ((,class (:background ,cyan-4 :foreground ,white-0))))
+   `(swiper-background-match-face-3 ((,class (:background ,cyan-4 :foreground ,blue-6))))
 
    ;; volatile-highlights
    `(vhl/default-face ((,class (:foreground ,black-3 :background ,green-0))))
