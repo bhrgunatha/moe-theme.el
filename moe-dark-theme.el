@@ -780,6 +780,7 @@ Moe, moe, kyun!")
    `(ivy-subdir ((,class (:foreground ,blue-1 :bold t))))
    `(ivy-virtual ((,class (:foreground ,magenta-3))))
 
+   ;; Why are the numbers different to swiper?
    `(ivy-minibuffer-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
    `(ivy-minibuffer-match-face-2 ((,class (:bold t :background ,green-4 :foreground ,white-0))))
    `(ivy-minibuffer-match-face-3 ((,class (:bold t :background ,green-5 :foreground ,green-0))))
@@ -787,21 +788,15 @@ Moe, moe, kyun!")
 
    ;; swiper
    `(swiper-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
-   `(swiper-match-face-2 ((,class (:bold t :background ,green-4 :foreground ,yellow-4))))
-   `(swiper-match-face-3 ((,class (:bold t :background ,green-5 :foreground ,green-0))))
-   `(swiper-match-face-4 ((,class (:bold t :background ,cyan-4 :foreground ,white-0))))
+   `(swiper-match-face-4 ((,class (:background ,green-4 :foreground ,white-0))))
+   `(swiper-match-face-2 ((,class (:background ,green-5 :foreground ,green-0))))
+   `(swiper-match-face-3 ((,class (:background ,cyan-4 :foreground ,white-0))))
    `(swiper-line-face ((,class (:foreground ,orange-2 :bold t :inherit highlight))))
 
-   `(swiper-background-match-face-1 ((,class (:background ,blue-3))))
-   `(swiper-background-match-face-2 ((,class (:background ,green-4))))
-   `(swiper-background-match-face-3 ((,class (:background ,green-5))))
-   `(swiper-background-match-face-4 ((,class (:background ,cyan-7))))
-
-   ;; `(swiper-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
-   ;; `(swiper-match-face-2 ((,class (:bold t :background ,green-4 :foreground ,yellow-4))))
-   ;; `(swiper-match-face-3 ((,class (:bold t :background ,green-5 :foreground ,green-0))))
-   ;; `(swiper-match-face-4 ((,class (:bold t :background ,cyan-4 :foreground ,white-0))))
-   ;; `(swiper-line-face ((,class (:foreground ,orange-2 :bold t :inherit highlight))))
+   `(swiper-background-match-face-1 ((,class (:background ,blue-3 :foreground ,white-0))))
+   `(swiper-background-match-face-4 ((,class (:background ,green-4 :foreground ,white-0))))
+   `(swiper-background-match-face-2 ((,class (:background ,green-5 :foreground ,green-0))))
+   `(swiper-background-match-face-3 ((,class (:background ,cyan-4 :foreground ,white-0))))
 
    ;; volatile-highlights
    `(vhl/default-face ((,class (:foreground ,black-3 :background ,green-0))))
