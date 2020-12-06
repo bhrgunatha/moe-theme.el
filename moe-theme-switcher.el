@@ -5,9 +5,11 @@
 ;; This file is not a part of GNU Emacs,
 ;; but this file is released under GPL v3.
 
+;; TODO: This program need to be refactored.
 (require 'moe-dark-theme)
 (require 'moe-light-theme)
 (require 'moe-theme)
+(require 'solar)
 
 (defvar moe-theme-switch-by-sunrise-and-sunset t
 "Automatically switch between dark and light moe-theme.
@@ -128,7 +130,6 @@ Take Keelung, Taiwan(25N,121E) for example, you can set like this:
      (boundp 'calendar-latitude)
      (eql moe-theme-switch-by-sunrise-and-sunset t))
     (progn
-      (convert-time-format-of-sunrise-and-sunset)
       (run-with-timer 0 (* 60 60 24) 'convert-time-format-of-sunrise-and-sunset))
   ()
   )
@@ -139,7 +140,5 @@ Take Keelung, Taiwan(25N,121E) for example, you can set like this:
 (defun moe-theme-switcher-disable ()
   (interactive)
   (cancel-timer moe-timer))
-
-(moe-theme-auto-switch)
 
 (provide 'moe-theme-switcher)
