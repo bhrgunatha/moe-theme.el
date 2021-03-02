@@ -31,6 +31,14 @@
 
 ;;;***
 
+;;;### (autoloads nil "moe-theme-flavours" "moe-theme-flavours.el"
+;;;;;;  (0 0 0 0))
+;;; Generated autoloads from moe-theme-flavours.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "moe-theme-flavours" '("moe-theme-")))
+
+;;;***
+
 ;;;### (autoloads nil "moe-theme-switcher" "moe-theme-switcher.el"
 ;;;;;;  (0 0 0 0))
 ;;; Generated autoloads from moe-theme-switcher.el
